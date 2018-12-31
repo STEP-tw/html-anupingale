@@ -3,27 +3,36 @@
   <head>
     <title>Page Title</title>
     <style>
+      .paragraph {
+        font-size: 25px;
+        background-color: aliceblue
+      }
+      .div_tag {
+        font-size: 25px;
+        background-color: aliceblue;
+      }
       h1 {
         font-size: 30px;
         text-align: center;
       }
       h2 {
         margin-top: 100px;
+        margin-bottom: 100px;
         text-align: center;
-        font-size: 30px;
-        text-align: center;
+        font-size: 30px
       }
       h4 {
         text-align: right;
       }
       div {
-        margin: 30px;
+        font-size: 20px;
+        margin: 30px
       }
       body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin: 100px;
         border: 1px solid black;
-        padding:10px
+        padding: 10px;
       }
       a {
         text-decoration: none;
@@ -42,9 +51,8 @@
       .images_rec {
         height: 300px;
         width: 500px;
-        margin:40px;
-        margin-left:60px;
-        align:center
+        margin: 40px;
+        margin-left: 60px;
       }
     </style>
   </head>
@@ -62,21 +70,26 @@
     </a>
 
     <h1>MAHARASHTRA FORTS</h1>
-    <h4 ><i>------ History to be proud of</i></h4>
+    <h4><i>------  History to be proud of</i></h4>
 
-    <div style="background-color:aliceblue; font-size: 25px" id="Top">
+    <div class="div_tag" id="Top">
       <p>
         <a href="#"><span style="margin-left: 40px">Home</span></a>
         <a href="#about"><span>About us</span></a>
+        <a href="#Forts"><span>Forts</span></a> 
         <a href="#todo"><span>Things to do</span></a>
         <a href="#Restaurants"><span>Restaurants</span></a>
       </p>
     </div>
-    <br />
+    <div>
+      <img
+        src="http://travelomiles.com/wp-content/uploads/2016/02/Sindhudurg-Fort-Maharashtra.jpg"
+      />
+    </div>
 
     <div>
-      <p>Forts :</p>
-      <div style="font-size: 20px; background-color: aliceblue; width:200px">
+      <p id="Forts" class="paragraph">Forts :</p>
+      <p>
         <ul>
           <a href="#janjira"><li>Murud-janjira</li></a>
           <a href="#Shivneri"><li>Shivneri</li></a>
@@ -90,19 +103,11 @@
           <a href="#Torna"><li>Torna</li></a>
           <a href="#Sinhagad"><li>Sinhagad</li></a>
         </ul>
-      </div>
+      </p>
     </div>
 
-    <div>
       <div>
-        <img
-          src="http://travelomiles.com/wp-content/uploads/2016/02/Sindhudurg-Fort-Maharashtra.jpg"
-        />
-      </div>
-
-      <div >
         <h2 id="about">ABOUT US</h2>
-        <br />
         <p>
           Packed with some of India's top attractions, Maharashtra stretches
           from the country's western coast to its central section, encompassing
@@ -118,7 +123,6 @@
           plans by using our forts trip planner .
         </p>
       </div>
-    </div>
 
     <h2>PLACES</h2>
     <p align="center" id="janjira">
@@ -329,9 +333,7 @@
     <br />
     <br />
 
-    <h2 style="text-align: center;background-color: aliceblue">
-      Recommandations
-    </h2>
+    <h2 style="background-color:aliceblue">Recommandations</h2>
 
     <br />
     <br />
@@ -360,13 +362,9 @@
       src="https://cache.marriott.com/marriottassets/marriott/PNQCK/pnqck-guestroom-0019-hor-clsc.jpg?interpolation=progressive-bilinear&"
       class="images_rec"
     />
-    <br />
-    <br />
     <hr height="5" color="black" />
-    <br />
-    <br />
 
-    <h2 style="text-align: center;" id="todo">NearBy Places to visit</h2>
+    <h2  id="todo">NearBy Places to visit</h2>
     <img
       src="https://ak.jogurucdn.com/media/image/media_gallery-2018-06-20-13-37226525065_b25ffeb496_z_7e23e3b26ade81c3812801f5dfcbc0ae.jpg"
       class="images_rec"
@@ -391,10 +389,6 @@
       src="https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2015/06/Thosegar-Falls-Near-Satara.jpg"
       class="images_rec"
     />
-    <br />
-    <br />
-    <br />
-
-    <h2 id="bottom"><a href="#Top">Go to Top</a></h2>
+    <p id="bottom"><a href="#Top">Go to Top</a></p>
   </body>
 </html>
