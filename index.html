@@ -2,11 +2,54 @@
 <html>
   <head>
     <title>Page Title</title>
+    <style>
+      h1 {
+        font-size: 30px;
+        text-align: center;
+      }
+      h2 {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 30px;
+        text-align: center;
+      }
+      h4 {
+        text-align: right;
+      }
+      div {
+        margin: 30px;
+      }
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 100px;
+        border: 1px solid black;
+        padding:10px
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      h3 {
+        text-align: center;
+      }
+      .images {
+        height: 450px;
+        width: 700px;
+      }
+      span {
+        margin-right: 40px;
+      }
+      .images_rec {
+        height: 300px;
+        width: 500px;
+        margin:40px;
+        margin-left:60px;
+        align:center
+      }
+    </style>
   </head>
 
-  <body style="font-family: Verdana, Geneva, Tahoma, sans-serif">
-    <br />
-
+  <body>
     <a
       href="https://i.pinimg.com/originals/31/cf/71/31cf71be55cbf55bce34a58466db440b.jpg"
     >
@@ -18,25 +61,21 @@
       />
     </a>
 
-    <h1 align="center">MAHARASHTRA FORTS</h1>
-    <h4 align="right"><i>------ History to be proud of</i></h4>
+    <h1>MAHARASHTRA FORTS</h1>
+    <h4 ><i>------ History to be proud of</i></h4>
 
     <div style="background-color:aliceblue; font-size: 25px" id="Top">
       <p>
-        <a href="#"
-          ><span style="margin-right:40px; margin-left: 40px">Home</span></a
-        >
-        <a href="#about"><span style="margin-right:40px">About us</span></a>
-        <a href="#todo"><span style="margin-right: 40px">Things to do</span></a>
-        <a href="#Restaurants"
-          ><span style="margin-right: 40px">Restaurants</span></a
-        >
+        <a href="#"><span style="margin-left: 40px">Home</span></a>
+        <a href="#about"><span>About us</span></a>
+        <a href="#todo"><span>Things to do</span></a>
+        <a href="#Restaurants"><span>Restaurants</span></a>
       </p>
     </div>
     <br />
 
-    <div style="margin:40px">
-      <h2>Forts :</h2>
+    <div>
+      <p>Forts :</p>
       <div style="font-size: 20px; background-color: aliceblue; width:200px">
         <ul>
           <a href="#janjira"><li>Murud-janjira</li></a>
@@ -54,17 +93,15 @@
       </div>
     </div>
 
-    <div style="margin-top:10px">
-      <div style="float: left;margin-right: 50px; margin-left: 40px">
+    <div>
+      <div>
         <img
           src="http://travelomiles.com/wp-content/uploads/2016/02/Sindhudurg-Fort-Maharashtra.jpg"
-          height="300px"
-          width="500px"
         />
       </div>
 
-      <div style="margin-right:40px">
-        <h2 style="text-align: center" id="about">ABOUT US</h2>
+      <div >
+        <h2 id="about">ABOUT US</h2>
         <br />
         <p>
           Packed with some of India's top attractions, Maharashtra stretches
@@ -83,14 +120,7 @@
       </div>
     </div>
 
-    <h2
-      style="text-align:center; background-color: aliceblue; margin-top:150px"
-    >
-      PLACES
-    </h2>
-    <br />
-    <br />
-
+    <h2>PLACES</h2>
     <p align="center" id="janjira">
       <a
         href="http://www.transindiatravels.com/wp-content/uploads/murud-janjira-fort1.jpg"
@@ -98,9 +128,7 @@
         <img
           src="http://www.transindiatravels.com/wp-content/uploads/murud-janjira-fort1.jpg"
           alt="janjira"
-          height="400"
-          width="700"
-          border="3"
+          class="images"
         />
       </a>
     </p>
@@ -118,9 +146,7 @@
         <img
           src="https://image3.mouthshut.com/images/imagesp/925873731s.jpg"
           alt="Shivneri"
-          height="400"
-          width="700"
-          border="3"
+          class="images"
         />
       </a>
     </p>
@@ -138,9 +164,7 @@
         <img
           src="https://image3.mouthshut.com/images/imagesp/925052825s.jpg"
           alt="lohagad"
-          height="400"
-          width="700"
-          border="3"
+          class="images"
         />
         <a href="https://en.wikipedia.org/wiki/Lohagad">
           <h2 align="center">Lohagad</h2></a
@@ -159,9 +183,7 @@
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Raigad_fort_towers.jpg/800px-Raigad_fort_towers.jpg"
           alt="rajgad"
-          height="400"
-          width="700"
-          border="3"
+          class="images"
         />
 
         <a href="https://en.wikipedia.org/wiki/Raigad_Fort">
@@ -181,9 +203,7 @@
         <img
           src="https://holidify.com/images/attr_wiki/compressed/attr_wiki_1989.jpg"
           alt="DaulataBad"
-          height="400"
-          width="700"
-          border="3"
+          class="images"
         />
       </a>
 
@@ -202,9 +222,7 @@
         <img
           src="http://coldspotvillage.com/images/pic/Pratapgad01.jpg"
           alt="pratapgad"
-          height="400"
-          width="700"
-          border="3"
+          class="images"
       /></a>
     </p>
 
@@ -223,9 +241,7 @@
         <img
           src="https://www.treebo.com/blog/wp-content/uploads/2018/02/Tung-Fort.jpg"
           alt="Tung-Fort"
-          height="400"
-          width="700"
-          border="3"
+          class="images"
       /></a>
     </p>
 
@@ -244,9 +260,7 @@
         <img
           src="http://www.transindiatravels.com/wp-content/uploads/sindhudurg-fort.jpg"
           alt="sindhudurg-fort"
-          height="400"
-          width="700"
-          border="3"
+          class="images"
       /></a>
     </p>
 
@@ -265,9 +279,7 @@
         <img
           src="http://www.transindiatravels.com/wp-content/uploads/vijaydurg-fort.jpg"
           alt="vijaydurg-fort"
-          height="400"
-          width="700"
-          border="3"
+          class="images"
       /></a>
     </p>
 
@@ -286,9 +298,7 @@
         <img
           src="http://www.transindiatravels.com/wp-content/uploads/torna-fort.jpg"
           alt="torna-fort"
-          height="400"
-          width="700"
-          border="3"
+          class="images"
       /></a>
     </p>
 
@@ -305,9 +315,7 @@
         <img
           src="https://c1.staticflickr.com/1/941/41706943400_e901ed21d2_b.jpg"
           alt="Sinhagad"
-          height="400"
-          width="700"
-          border="3"
+          class="images"
       /></a>
     </p>
 
@@ -321,49 +329,36 @@
     <br />
     <br />
 
-    <h2 style="text-align: center;background-color: aliceblue">Recommandations</h2>
+    <h2 style="text-align: center;background-color: aliceblue">
+      Recommandations
+    </h2>
 
     <br />
     <br />
     <h3 align="center" id="Restaurants">Restaurants</h3>
     <img
       src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1644/PNQHY-P045-Baan-Tao-Outdoor-Seating.adapt.16x9.1280.720.jpg"
-      alt="resto"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <img
       src="https://images.thrillophilia.com/image/upload/s--5_RpB9AP--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/040/445/original/1521012268_1474632705_15261432271_4ebcdf38e6_h.jpg.jpg.jpg?1521012268"
-      alt="resto"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <img
       src="http://functionreviews.com/wp-content/uploads/2018/03/Libertine-function-rooms-brisbane-venues-cbd-venue-hire-small-party-outdoor-room-birthday-corporate-event-001.jpg"
-      alt="resto"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <img
       src="https://media-cdn.tripadvisor.com/media/photo-s/07/53/53/9d/feast.jpg"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <img
       src="https://media-cdn.tripadvisor.com/media/photo-s/05/eb/5d/ab/fort-jadhavgadh.jpg"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <img
       src="https://cache.marriott.com/marriottassets/marriott/PNQCK/pnqck-guestroom-0019-hor-clsc.jpg?interpolation=progressive-bilinear&"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <br />
     <br />
@@ -374,46 +369,31 @@
     <h2 style="text-align: center;" id="todo">NearBy Places to visit</h2>
     <img
       src="https://ak.jogurucdn.com/media/image/media_gallery-2018-06-20-13-37226525065_b25ffeb496_z_7e23e3b26ade81c3812801f5dfcbc0ae.jpg"
-      alt="resto"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <img
       src="https://media-cdn.tripadvisor.com/media/photo-s/07/bb/34/c2/metro-resto-cafe.jpg"
-      alt="resto"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <img
       src="https://www.holidaymirchi.com/pictures/tourgallery/42/best-of-maharashtra-188.jpg"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <img
       src="http://www.transindiatravels.com/wp-content/uploads/mumbai-3.jpg"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <img
       src="https://media-cdn.tripadvisor.com/media/photo-s/02/c6/00/b9/chaturshrungi-temple.jpg"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <img
       src="https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2015/06/Thosegar-Falls-Near-Satara.jpg"
-      height="300"
-      width="460"
-      border="3"
+      class="images_rec"
     />
     <br />
     <br />
     <br />
-    <hr height="5" color="black" />
 
     <h2 id="bottom"><a href="#Top">Go to Top</a></h2>
   </body>
