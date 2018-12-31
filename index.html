@@ -2,59 +2,7 @@
 <html>
   <head>
     <title>Page Title</title>
-    <style>
-      .paragraph {
-        font-size: 25px;
-        background-color: aliceblue
-      }
-      .div_tag {
-        font-size: 25px;
-        background-color: aliceblue;
-      }
-      h1 {
-        font-size: 30px;
-        text-align: center;
-      }
-      h2 {
-        margin-top: 100px;
-        margin-bottom: 100px;
-        text-align: center;
-        font-size: 30px
-      }
-      h4 {
-        text-align: right;
-      }
-      div {
-        font-size: 20px;
-        margin: 30px
-      }
-      body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin: 100px;
-        border: 1px solid black;
-        padding: 10px;
-      }
-      a {
-        text-decoration: none;
-        color: black;
-      }
-      h3 {
-        text-align: center;
-      }
-      .images {
-        height: 450px;
-        width: 700px;
-      }
-      span {
-        margin-right: 40px;
-      }
-      .images_rec {
-        height: 300px;
-        width: 500px;
-        margin: 40px;
-        margin-left: 60px;
-      }
-    </style>
+    <link rel="stylesheet" href="stylesheet.css" />
   </head>
 
   <body>
@@ -70,62 +18,51 @@
     </a>
 
     <h1>MAHARASHTRA FORTS</h1>
-    <h4><i>------  History to be proud of</i></h4>
+    <h4><i>------ History to be proud of</i></h4>
 
-    <div class="div_tag" id="Top">
-      <p>
-        <a href="#"><span style="margin-left: 40px">Home</span></a>
-        <a href="#about"><span>About us</span></a>
-        <a href="#Forts"><span>Forts</span></a> 
-        <a href="#todo"><span>Things to do</span></a>
-        <a href="#Restaurants"><span>Restaurants</span></a>
-      </p>
-    </div>
-    <div>
-      <img
-        src="http://travelomiles.com/wp-content/uploads/2016/02/Sindhudurg-Fort-Maharashtra.jpg"
-      />
-    </div>
-
-    <div>
-      <p id="Forts" class="paragraph">Forts :</p>
-      <p>
-        <ul>
-          <a href="#janjira"><li>Murud-janjira</li></a>
-          <a href="#Shivneri"><li>Shivneri</li></a>
-          <a href="#Lohagad"><li>Lohagad</li></a>
-          <a href="#Rajgad"><li>Rajgad</li></a>
-          <a href="#Daulatabad"><li>Daulatabad</li></a>
-          <a href="#Pratapgad"><li>Pratapgad</li></a>
-          <a href="#Tung"><li>Tung</li></a>
-          <a href="#Sindhudurg"><li>Sindhudurg</li></a>
-          <a href="#Vijaydurg"><li>Vijaydurg</li></a>
-          <a href="#Torna"><li>Torna</li></a>
-          <a href="#Sinhagad"><li>Sinhagad</li></a>
-        </ul>
+    <div class="menu_div" id="Top">
+      <p class="menu_bar">
+        <a href="#">Home</a> <a href="#about">About us</a>
+        <a href="#Forts">Forts</a> <a href="#todo">Things to do</a>
+        <a href="#Restaurants">Restaurants</a>
       </p>
     </div>
 
-      <div>
-        <h2 id="about">ABOUT US</h2>
-        <p>
-          Packed with some of India's top attractions, Maharashtra stretches
-          from the country's western coast to its central section, encompassing
-          equally varied landscapes and climates. Home to the most
-          industrialized region in India, this sprawling state also boasts
-          thriving agricultural and tourism sectors. Begin your tour of
-          Maharashtra in Mumbai, India's commercial capital and hub of the
-          successful Bollywood film and TV industries. Beyond this immense,
-          cosmopolitan city, you can explore Buddhist caves, ancient temple
-          complexes, modern beach resorts, national parks, and pleasant hill
-          stations that the European colonists used as summer retreats.
-          Maharashtra is in India. Put Maharashtra at the heart of your travel
-          plans by using our forts trip planner .
-        </p>
-      </div>
+    <img
+      class="head_image"
+      src="http://travelomiles.com/wp-content/uploads/2016/02/Sindhudurg-Fort-Maharashtra.jpg"
+    />
 
-    <h2>PLACES</h2>
-    <p align="center" id="janjira">
+    <p class="paragraph" id="Forts">Forts :</p>
+    <ul>
+      <a href="#janjira"><li>Murud-janjira</li></a>
+      <a href="#Shivneri"><li>Shivneri</li></a>
+      <a href="#Lohagad"><li>Lohagad</li></a>
+      <a href="#Rajgad"><li>Rajgad</li></a>
+      <a href="#Daulatabad"><li>Daulatabad</li></a>
+      <a href="#Pratapgad"><li>Pratapgad</li></a>
+      <a href="#Tung"><li>Tung</li></a>
+      <a href="#Sindhudurg"><li>Sindhudurg</li></a>
+      <a href="#Vijaydurg"><li>Vijaydurg</li></a>
+      <a href="#Torna"><li>Torna</li></a>
+      <a href="#Sinhagad"><li>Sinhagad</li></a>
+    </ul>
+
+    <p class="heading_one" id="about">ABOUT US</p>
+    Packed with some of India's top attractions, Maharashtra stretches from the
+    country's western coast to its central section, encompassing equally varied
+    landscapes and climates. Home to the most industrialized region in India,
+    this sprawling state also boasts thriving agricultural and tourism sectors.
+    Begin your tour of Maharashtra in Mumbai, India's commercial capital and hub
+    of the successful Bollywood film and TV industries. Beyond this immense,
+    cosmopolitan city, you can explore Buddhist caves, ancient temple complexes,
+    modern beach resorts, national parks, and pleasant hill stations that the
+    European colonists used as summer retreats. Maharashtra is in India. Put
+    Maharashtra at the heart of your travel plans by using our forts trip
+    planner .
+
+    <p class="heading_one">PLACES</p>
+    <p class="heading_two" id="janjira">
       <a
         href="http://www.transindiatravels.com/wp-content/uploads/murud-janjira-fort1.jpg"
       >
@@ -138,14 +75,15 @@
     </p>
 
     <a href="https://en.wikipedia.org/wiki/Murud-Janjira">
-      <h2 align="center">Murud-Janjira</h2>
+      <p class="heading_two">Murud-Janjira</p>
     </a>
-    <h3 align="center">Location : Maharashtra, India</h3>
-    <h3 align="center">Built : 17th century</h3>
-    <h3 align="center">Archietectural : Malik Ambar</h3>
-    <br />
+    <pre class="basic_info">
+Location : Maharashtra, India
+    Built : 17th century
+    Archietectural : Malik Ambar
+    </pre>
 
-    <p align="center" id="Shivneri">
+    <p class="heading_two" id="Shivneri">
       <a href="https://image3.mouthshut.com/images/imagesp/925873731s.jpg">
         <img
           src="https://image3.mouthshut.com/images/imagesp/925873731s.jpg"
@@ -156,14 +94,15 @@
     </p>
 
     <a href="https://en.wikipedia.org/wiki/Shivneri">
-      <h2 align="center">Shivneri</h2>
+      <p class="heading_two">Shivneri</p>
     </a>
-    <h3 align="center">Location : Junnar, Pune, India</h3>
-    <h3 align="center">Built : 1932</h3>
-    <h3 align="center">Archietectural : Maratha imperial</h3>
-    <br />
+    <pre class="basic_info">
+Location : Junnar, Pune, India
+    Built : 1932
+    Archietectural : Maratha imperial
+    </pre>
 
-    <p align="center" id="Lohagad">
+    <p class="heading_two" id="Lohagad">
       <a href="https://image3.mouthshut.com/images/imagesp/925052825s.jpg">
         <img
           src="https://image3.mouthshut.com/images/imagesp/925052825s.jpg"
@@ -171,16 +110,17 @@
           class="images"
         />
         <a href="https://en.wikipedia.org/wiki/Lohagad">
-          <h2 align="center">Lohagad</h2></a
+          <p class="heading_two">Lohagad</p></a
         >
-        <h3 align="center">Location : Pune, India</h3>
-        <h3 align="center">Built : 1932</h3>
-        <h3 align="center">Archietectural : Maratha imperial</h3>
-        <br />
+        <pre class="basic_info">
+Location : Pune, India
+        Built : 1932
+        Archietectural : Maratha imperial
+        </pre>
       </a>
     </p>
 
-    <p align="center" id="Rajgad">
+    <p class="heading_two" id="Rajgad">
       <a
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Raigad_fort_towers.jpg/800px-Raigad_fort_towers.jpg"
       >
@@ -191,16 +131,17 @@
         />
 
         <a href="https://en.wikipedia.org/wiki/Raigad_Fort">
-          <h2 align="center">Rajgad</h2></a
+          <p class="heading_two">Rajgad</p></a
         >
-        <h3 align="center">Location : balekilla, pune, India</h3>
-        <h3 align="center">Built : 1932</h3>
-        <h3 align="center">Archietectural : Maratha imperial</h3>
-        <br />
+        <pre class="basic_info">
+Location : balekilla, pune, India
+        Built : 1932
+        Archietectural : Maratha imperial
+        </pre>
       </a>
     </p>
 
-    <p align="center" id="Daulatabad">
+    <p class="heading_two" id="Daulatabad">
       <a
         href="https://holidify.com/images/attr_wiki/compressed/attr_wiki_1989.jpg"
       >
@@ -212,16 +153,17 @@
       </a>
 
       <a href="https://en.wikipedia.org/wiki/Daulatabad,_Maharashtra">
-        <h2 align="center">DaulataBad</h2>
+        <p class="heading_two">DaulataBad</p>
       </a>
     </p>
 
-    <h3 align="center">Location : Pune, India</h3>
-    <h3 align="center">Built : 1932</h3>
-    <h3 align="center">Archietectural : Maratha imperial</h3>
-    <br />
+    <pre class="basic_info">
+Location : Pune, India
+    Built : 1932
+    Archietectural : Maratha imperial
+    </pre>
 
-    <p align="center" id="Pratapgad">
+    <p class="heading_two" id="Pratapgad">
       <a href="http://coldspotvillage.com/images/pic/Pratapgad01.jpg">
         <img
           src="http://coldspotvillage.com/images/pic/Pratapgad01.jpg"
@@ -231,14 +173,15 @@
     </p>
 
     <a href="https://en.wikipedia.org/wiki/Pratapgad">
-      <h2 align="center">Pratapgad</h2></a
+      <p class="heading_two">Pratapgad</p></a
     >
-    <h3 align="center">Location : Mahabaleshwar, Stara, India</h3>
-    <h3 align="center">Built : 1932</h3>
-    <h3 align="center">Archietectural : Maratha imperial</h3>
-    <br />
+    <pre class="basic_info">
+Location : Mahabaleshwar, Stara, India
+    Built : 1932
+    Archietectural : Maratha imperial
+    </pre>
 
-    <p align="center" id="Tung">
+    <p class="heading_two" id="Tung">
       <a
         href="https://www.treebo.com/blog/wp-content/uploads/2018/02/Tung-Fort.jpg"
       >
@@ -250,14 +193,15 @@
     </p>
 
     <a href="https://en.wikipedia.org/wiki/Tung_Fort">
-      <h2 align="center">Tung-Fort</h2></a
+      <p class="heading_two">Tung-Fort</p></a
     >
-    <h3 align="center">Location : Pune, India</h3>
-    <h3 align="center">Built : 1932</h3>
-    <h3 align="center">Archietectural : Maratha imperial</h3>
-    <br />
+    <pre class="basic_info">
+Location : Pune, India
+    Built : 1932
+    Archietectural : Maratha imperial
+    </pre>
 
-    <p align="center" id="Sindhudurg">
+    <p class="heading_two" id="Sindhudurg">
       <a
         href="http://www.transindiatravels.com/wp-content/uploads/sindhudurg-fort.jpg"
       >
@@ -269,14 +213,15 @@
     </p>
 
     <a href="https://en.wikipedia.org/wiki/Sindhudurg_Fort">
-      <h2 align="center">Sindhudurg</h2></a
+      <p class="heading_two">Sindhudurg</p></a
     >
-    <h3 align="center">Location : Maharashtra, western India</h3>
-    <h3 align="center">Built : 1964</h3>
-    <h3 align="center">Archietectural : Hiroji Indolkar</h3>
-    <br />
+    <pre class="basic_info">
+Location : Maharashtra, western India
+    Built : 1964
+    Archietectural : Hiroji Indolkar
+    </pre>
 
-    <p align="center" id="Vijaydurg">
+    <p class="heading_two" id="Vijaydurg">
       <a
         href="http://www.transindiatravels.com/wp-content/uploads/vijaydurg-fort.jpg"
       >
@@ -288,14 +233,15 @@
     </p>
 
     <a href="https://en.wikipedia.org/wiki/Vijaydurg_Fort">
-      <h2 align="center">vijaydurg</h2></a
+      <p class="heading_two">vijaydurg</p></a
     >
-    <h3 align="center">Location : Maharashtra, western India</h3>
-    <h3 align="center">Built : 1193</h3>
-    <h3 align="center">Archietectural : Raja Bhoj</h3>
-    <br />
+    <pre class="basic_info">
+Location : Maharashtra, western India
+    Built : 1193
+    Archietectural : Raja Bhoj
+    </pre>
 
-    <p align="center" id="Torna">
+    <p class="heading_two" id="Torna">
       <a
         href="http://www.transindiatravels.com/wp-content/uploads/torna-fort.jpg"
       >
@@ -307,14 +253,15 @@
     </p>
 
     <a href="https://en.wikipedia.org/wiki/Torna_Fort">
-      <h2 align="center">Torna</h2></a
+      <p class="heading_two">Torna</p></a
     >
-    <h3 align="center">Location : Pune, Maharashtra</h3>
-    <h3 align="center">Built : 13th Century</h3>
-    <h3 align="center">Archietectural : Shaiva Panth</h3>
-    <br />
+    <pre class="basic_info">
+    Location : Pune, Maharashtra
+    Built : 13th Century
+    Archietectural : Shaiva Panth
+    </pre>
 
-    <p align="center" id="Sinhagad">
+    <p class="heading_two" id="Sinhagad">
       <a href="https://c1.staticflickr.com/1/941/41706943400_e901ed21d2_b.jpg">
         <img
           src="https://c1.staticflickr.com/1/941/41706943400_e901ed21d2_b.jpg"
@@ -324,20 +271,16 @@
     </p>
 
     <a href="https://en.wikipedia.org/wiki/Sinhagad">
-      <h2 align="center">Sinhagad</h2></a
+      <p class="heading_two">Sinhagad</p></a
     >
-    <h3 align="center">Location : Pune, Maharashtra</h3>
-    <h3 align="center">Built : 2000 yrs ago</h3>
-    <h3 align="center">Archietectural : Maratha imperial</h3>
-    <br />
-    <br />
-    <br />
+    <pre class="basic_info">
+    Location : Pune, Maharashtra
+    Built : 2000 yrs ago
+    Archietectural : Maratha imperial
+    </pre>
 
-    <h2 style="background-color:aliceblue">Recommandations</h2>
-
-    <br />
-    <br />
-    <h3 align="center" id="Restaurants">Restaurants</h3>
+    <p class="heading_one">Recommandations</p>
+    <p id="Restaurants" class="heading_three">Restaurants</p>
     <img
       src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1644/PNQHY-P045-Baan-Tao-Outdoor-Seating.adapt.16x9.1280.720.jpg"
       class="images_rec"
@@ -362,9 +305,8 @@
       src="https://cache.marriott.com/marriottassets/marriott/PNQCK/pnqck-guestroom-0019-hor-clsc.jpg?interpolation=progressive-bilinear&"
       class="images_rec"
     />
-    <hr height="5" color="black" />
 
-    <h2  id="todo">NearBy Places to visit</h2>
+    <p class="heading_one" id="todo">NearBy Places to visit</p>
     <img
       src="https://ak.jogurucdn.com/media/image/media_gallery-2018-06-20-13-37226525065_b25ffeb496_z_7e23e3b26ade81c3812801f5dfcbc0ae.jpg"
       class="images_rec"
@@ -389,6 +331,6 @@
       src="https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2015/06/Thosegar-Falls-Near-Satara.jpg"
       class="images_rec"
     />
-    <p id="bottom"><a href="#Top">Go to Top</a></p>
+    <p class="heading_two" id="bottom"><a href="#Top">Go to Top</a></p>
   </body>
 </html>
