@@ -1,11 +1,18 @@
+a:hover {
+  text-decoration: none;
+  color:black;
+}
+
 .paragraph {
   font-size: 25px;
 }
 
 ul#menu li {
   display:inline-block;
+  width:170px;
   padding:5px;
   margin-left: 5px;
+  margin-top: 5px;
   margin-right: 5px;
   border:1px solid black;
 }
@@ -13,7 +20,7 @@ ul#menu li {
 li:hover {
   background-color: black;
   color: white;
-  font-size:25px
+  font-size: 20px
 }
 
 .heading_one {
@@ -34,7 +41,7 @@ li:hover {
 }
 
 .menu_div {
-  background-color: aliceblue
+  background-color: aliceblue;
 }
 
 .menu_bar a{
@@ -56,12 +63,12 @@ li:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-p#menu a:hover {
-  font-size: 30px;
-  background-color: aliceblue
-}
-
 h1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color:aliceblue;
   font-size: 30px;
   text-align: center
 }
