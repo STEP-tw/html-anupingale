@@ -47,12 +47,7 @@ li:hover {
 .head_image {
   height:500px;
   width: 1050px;
-  margin-left: 70px
-}
-
-.buttons {
-  height:30px;
-  width:50px
+  margin-left: 65px
 }
 
 .basic_info {
@@ -68,7 +63,7 @@ p#menu a:hover {
 
 h1 {
   font-size: 30px;
-  text-align: center;
+  text-align: center
 }
 
 h2 {
